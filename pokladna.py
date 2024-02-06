@@ -1,9 +1,6 @@
 def main():
-    # Total price and payment
     total_price = 666
     payment = 1000
-
-    # Available type of cash
     available_cash = [5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
 
     # Control check
