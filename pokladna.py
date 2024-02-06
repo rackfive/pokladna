@@ -22,10 +22,10 @@ def calculate_change(total_price, payment, available_cash):
     # Loop for each available cash type
     for cash in available_cash:
         while change >= cash:
+            # Insert cash to return into the list
             returned_cash.append(cash)
             change -= cash
 
-    # Insert cash to return into the list
     return returned_cash
 
 if __name__ == "__main__":
