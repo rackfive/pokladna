@@ -24,6 +24,7 @@ def calculate_change(total_price, payment, available_cash):
         while change >= cash:
             # Insert cash to return into the list
             returned_cash.append(cash)
+            # Reduce the amount to change
             change -= cash
 
     return returned_cash
